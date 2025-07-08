@@ -1,4 +1,3 @@
-// components/EditableBio.tsx
 'use client';
 
 import React, { useState, ChangeEvent } from 'react';

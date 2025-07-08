@@ -1,11 +1,10 @@
-// components/ImagePreview.tsx
 import React from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { XCircle } from 'lucide-react'; // We'll install lucide-react for icons
+import { XCircle } from 'lucide-react';
 
 type ImagePreviewProps = {
-  image: { url: string; file?: File }; // file is optional for external URLs
+  image: { url: string; file?: File };
   onRemove: () => void;
 };
 
